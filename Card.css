@@ -1,0 +1,92 @@
+
+section{
+    background-color: rgb(108, 146, 147);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+}
+#card{
+  width:380p;
+  height:450px;   
+  background-color:white;
+  margin-top: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+    justify-content: center;
+}
+#card img{
+    width:500px;
+  height:250px; 
+  object-fit: cover;
+  object-position: center;  
+  border-radius: 10px;
+    
+}
+#card h1{
+    font-size: 40px;
+    margin-left:25px;
+
+    
+}
+#card h2{
+    color: rgb(185, 52, 52);
+ font-size: 35px;
+    margin-left:160px;
+    font-weight: 700;
+}
+#card  #add{
+    background-color: rgb(142, 176, 62);
+          font-weight: 700;
+          color: white;
+          height: 40px;
+          width: 120px;
+          margin-left:180px;
+          margin-bottom:110px;
+          border-radius: 5px;
+          cursor: pointer;
+}   
+.header{
+background-color: darkgoldenrod;
+height: 110px;
+margin-bottom: auto;
+}
+
+.bootnav{
+margin:0;
+}
+footer{
+background-color: darkgoldenrod;
+text-align: center;
+}
+#bulb img{
+height: 400px;
+width: 500px;
+padding-right: 150px;
+  border-radius: 10px
+}
+#bulb2 img{
+height: 400px;
+width: 480px;
+padding-left:100px ;
+border-radius: 20px;
+
+}
+@media only screen and (max-width: 600px) {
+#card{
+    margin-top: 0;
+}
+h1{
+  margin-left: 60px;
+padding-top: 25px;
+
+}
+}
+#bt{
+  margin-left: 370px;
+  border-radius: 10px;
+  font-style: italic;
+
+
+}
